@@ -6,5 +6,8 @@
     <item
         android:id="@+id/item_zoomin"
         android:title="버튼 확대"/>
+    <item
+        android:id="@+id/item_goback"
+        android:title="원래대로"/>
 
 </menu>

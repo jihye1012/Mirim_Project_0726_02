@@ -62,7 +62,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.item_zoomin:
                 btn2.setScaleX(2);
                 return true;
-
+            case R.id.item_goback:
+                btn2.setScaleX(1);
+                btn2.setRotation(0);
+                return true;
         }
         return false;
     }
